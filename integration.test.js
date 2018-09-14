@@ -1,5 +1,10 @@
 import axios from "axios";
 
+const osloCoordinates = {
+  latitude: 59.911491,
+  longitude: 10.757933
+};
+
 test("Request api.met.no and get 200 status", () => {
   expect.assertions(1);
   return axios
