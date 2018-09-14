@@ -2,7 +2,7 @@
 
 test api.met.no integration using Jest.
 
-1. Test for as many HTTP status codes as possible
+1. Test for as many HTTP status codes as possible on `locationforecast` API
 1. Test API response matches expectations
 1. Use `osloCoordinates` variable in API calls
 
